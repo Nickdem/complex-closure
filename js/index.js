@@ -5,8 +5,6 @@ const popup = document.querySelector('.consultation');
 const menuBtn = document.querySelector('.header__menu-toggle');
 const menu = document.querySelector('.menu ul');
 
-console.log(menu)
-
 clickers.forEach(clicker => {
   clicker.addEventListener('click', (e) => {
     e.preventDefault()

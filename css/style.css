@@ -41,6 +41,12 @@ body {
   padding: 5px 20px 4px;
   color: #1b1b1b;
   background-color: #ffc222;
+  transition: all .3s;
+}
+
+.header__btn:hover,
+.header__btn:focus {
+  background-color: #cf9e21;
 }
 
 .header__phone,
@@ -84,7 +90,8 @@ body {
   transition: all .3s;
 }
 
-.menu a:hover {
+.menu a:hover,
+.menu a:focus {
   border-color: #ffc222;
 }
 
@@ -188,6 +195,12 @@ body {
   border: 1px solid #ffc222;
   border-right-width: 20px;
   position: relative;
+  transition: all .3s;
+}
+
+.default-btn:hover,
+.default-btn:focus {
+  border-color: #cf9e21;
 }
 
 .default-btn::after {
@@ -251,6 +264,15 @@ body {
   padding: 5px 38px;
   border: 3px solid #e6e6e6;
   color: #373636;
+  transition: all .3s;
+}
+
+.services__btn a:hover,
+.services__btn a:focus,
+.news__btn a:hover,
+.news__btn a:focus {
+  background-color: #373636;
+  color: #fff;
 }
 
 .services__items {
@@ -568,6 +590,11 @@ body {
   padding: 5px 20px 4px;
   color: #1b1b1b;
   background-color: #ffc222;
+}
+
+.footer__btn:hover,
+.footer__btn:focus {
+  background-color: #cf9e21;
 }
 
 .footer__phone,
