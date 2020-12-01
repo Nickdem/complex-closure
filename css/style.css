@@ -67,6 +67,10 @@ body {
   justify-content: space-between;
 }
 
+.header__menu-toggle {
+  display: none;
+}
+
 .menu li{
   display: inline-block;
 }
@@ -106,7 +110,18 @@ body {
   height: 300px;
   margin: -150px 0 0 -250px;
   background-color: #fff;
+  animation: show 1s;
   z-index: 100;
+}
+
+@keyframes show {
+  0% {
+    transform: translateY(-3000px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
 }
 
 .consultation__form {
