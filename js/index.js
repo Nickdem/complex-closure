@@ -17,6 +17,11 @@ menuBtn.addEventListener('click', () => {
   menuBtn.style.display = 'none'
 })
 
+menu.addEventListener('click', () => {
+  menu.style.display = 'none'
+  menuBtn.style.display = 'block'
+})
+
 exitBtn.addEventListener('click', (e) => {
   e.preventDefault()
   popup.classList.add('hidden')
