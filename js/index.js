@@ -13,13 +13,7 @@ clickers.forEach(clicker => {
 })
 
 menuBtn.addEventListener('click', () => {
-  menu.style.display = 'block'
-  menuBtn.style.display = 'none'
-})
-
-menu.addEventListener('click', () => {
-  menu.style.display = 'none'
-  menuBtn.style.display = 'block'
+  menuBtn.classList.toggle('show')
 })
 
 exitBtn.addEventListener('click', (e) => {

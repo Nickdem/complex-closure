@@ -21,8 +21,21 @@
     height: 30px;
   }
 
-  .menu ul {
+  .menu {
     display: none;
+  }
+
+  .menu ul {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .menu li:first-child {
+    padding-left: 10px;
+  }
+
+  .show + .menu {
+    display: block;
   }
 
   .services__top {
